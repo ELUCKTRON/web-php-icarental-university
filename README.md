@@ -54,12 +54,6 @@ iCarRental is a simple web-based car rental system created during the third seme
 - `data/` – Persistent data (cars, users, bookings).
 - `scripts/` – AJAX handlers and modals.
 
-## ⚠️ Academic Integrity
-
-This project was submitted under ELTE’s official declaration.  
-No unauthorized tools or code generation (including AI) were used.  
-All logic, design, and implementation are original and follow Section 377/A of ELTE’s Academic and Examination Regulations.
-
 ## 📜 License
 
 This project is academic and non-commercial. See `LICENSE` file for details.
