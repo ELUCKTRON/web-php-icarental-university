@@ -1,0 +1,55 @@
+.user-info {
+  display: flex;
+  align-items: center; /* Align image and details vertically */
+  gap: 20px; /* Space between image and details */
+  background-color: #222; /* Matches the rest of the theme */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px; /* Limit the width of the section for better alignment */
+  margin: 20px auto; /* Center the section horizontally on the page */
+}
+
+.user-photo {
+  flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+.user-photo img {
+  width: 80px; /* Smaller fixed size */
+  height: 80px;
+  object-fit: cover; /* Ensures the image scales without distortion */
+  border-radius: 50%; /* Keeps the image circular */
+  border: 2px solid #fbb03b; /* Add a border matching the button color */
+}
+
+.user-details {
+  color: #fff; /* Text color matches the theme */
+  flex-grow: 1; /* Allow the text area to expand if necessary */
+}
+
+.user-details h2 {
+  margin: 0 0 10px; /* Add spacing below the name */
+}
+
+.user-details p {
+  margin: 5px 0; /* Consistent spacing between lines */
+}
+
+.buttons {
+  padding: 5px 10px;
+  background-color: #fbb03b;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap; /* Prevents text from wrapping inside the button */
+
+
+}
+
+
+.car-listing .car-image img{
+
+  cursor: default;
+
+
+}

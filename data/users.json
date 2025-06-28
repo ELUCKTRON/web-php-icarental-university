@@ -1,0 +1,18 @@
+{
+    "675991c8455c0": {
+        "id": "675991c8455c0",
+        "full_name": "admin adminimum",
+        "email": "admin@yahoo.com",
+        "password": "$2y$10$bZkLIhXfbAmUYma2v5FXUOdZS\/0YXXE44ymQfkMqQ4vnY9tAVeznq",
+        "is_admin": true,
+        "image": "default.PNG"
+    },
+    "6782d15c987cb": {
+        "id": "6782d15c987cb",
+        "full_name": "xsf gdsgdsg",
+        "email": "saeed@gmail.com",
+        "password": "$2y$10$abLWmbZ1fYW9aAJmJKzfCeUwNnaniyxQa5Se1TQ6uRkpvKhomBYpG",
+        "is_admin": false,
+        "image": "default.PNG"
+    }
+}

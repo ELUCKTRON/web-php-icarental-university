@@ -1,0 +1,124 @@
+.user-info {
+  display: flex;
+  align-items: center; /* Align image and details vertically */
+  gap: 20px; /* Space between image and details */
+  background-color: #222; /* Matches the rest of the theme */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px; /* Limit the width of the section for better alignment */
+  margin: 20px auto; /* Center the section horizontally on the page */
+}
+
+.user-photo {
+  flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+.user-photo img {
+  width: 80px; /* Smaller fixed size */
+  height: 80px;
+  object-fit: cover; /* Ensures the image scales without distortion */
+  border-radius: 50%; /* Keeps the image circular */
+  border: 2px solid #fbb03b; /* Add a border matching the button color */
+}
+
+.user-details {
+  color: #fff; /* Text color matches the theme */
+  flex-grow: 1; /* Allow the text area to expand if necessary */
+}
+
+.user-details h2 {
+  margin: 0 0 10px; /* Add spacing below the name */
+}
+
+.user-details p {
+  margin: 5px 0; /* Consistent spacing between lines */
+}
+
+.buttons {
+  padding: 5px 10px;
+  background-color: #fbb03b;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap; /* Prevents text from wrapping inside the button */
+
+
+}
+
+.AdminPageDetails{
+
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically (optional) */
+  gap: 20px; /* Space between the date inputs */
+  padding: 20px; /* Add spacing inside the section */
+  background-color: #222; /* Background only wraps the items */
+  border-radius: 8px; /* Rounded corners for the background */
+  max-width: fit-content; /* Ensure the width wraps around the content */
+  margin: 0 auto; /* Center the whole section on the page */
+
+  margin-top: 10px;
+}
+
+.booking-data {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns: user info and car info */
+  gap: 20px; /* Space between the user info and car info */
+  align-items: center; /* Vertically align content */
+  margin-bottom: 20px; /* Space below each booking-data block */
+  border: 1px solid #444; /* Optional: Add a border for better grouping */
+  padding: 20px; /* Optional: Add padding for a cleaner look */
+  border-radius: 8px; /* Optional: Rounded corners for a cohesive design */
+}
+
+.booking-listing {
+  display: flex;
+  flex-direction: column; /* Stack each booking-data block vertically */
+  gap: 20px; /* Space between each booking-data block */
+  margin-top: 20px; /* Maintain spacing from the top */
+}
+
+.available label {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.available input[type="radio"] {
+  appearance: none; /* Removes default styling */
+  width: 16px;
+  height: 16px;
+  border: 2px solid black; /* Border color */
+  border-radius: 50%;
+  outline: none;
+  margin-right: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.available input[type="radio"]:checked {
+  background-color: black; /* Color when selected */
+  border: 2px solid #fbb03b; /* Border color */
+}
+
+.available span {
+  color: #fff; /* Text color */
+  font-size: 0.9rem;
+}
+
+.booking-listing .car-image img{
+
+  cursor: default;
+
+
+}
+
+.cars-buttons{
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+}

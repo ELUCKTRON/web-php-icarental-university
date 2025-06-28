@@ -1,0 +1,75 @@
+/* Fix for spacing between header and main content */
+.main {
+  margin-top: 100px; /* Ensures enough space below the fixed header */
+}
+
+/* Add a background to the car-listing container */
+.car-listing.container {
+  background-color: #333; /* Dark background for the entire container */
+  padding: 20px; /* Add padding for spacing inside the container */
+  border-radius: 8px; /* Rounded corners for the background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional shadow for a better visual effect */
+}
+
+/* Styling for the car details section */
+.car-details {
+  display: flex; /* Flexbox layout for image and details */
+  flex-direction: row; /* Align children horizontally */
+  align-items: center; /* Center align items vertically */
+  gap: 20px; /* Space between the image and the information */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Styling for the car image */
+.detail-page-image img {
+  max-width: 100%; /* Ensure the image is responsive */
+  height: auto;
+  border-radius: 8px; /* Match the card styling */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional shadow for better visuals */
+}
+
+/* Styling for the car details information section */
+.detail-page-informations {
+  flex: 1; /* Take up remaining horizontal space */
+  background-color:  rgba(255, 255, 255, 0.1); /* Dark semi-transparent background */
+  padding: 15px;
+  border-radius: 8px; /* Rounded corners */
+  color: #fff; /* White text for contrast */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add a shadow to lift the section visually */
+  text-align: left; /* Align text to the left for a clean look */
+}
+
+.detail-page-informations h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #fbb03b; /* Highlight the title with gold color */
+}
+
+.detail-page-informations p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+/* Styling for the redirect button */
+.detail-page-buttons {
+  margin-top: 20px; /* Add spacing above the button */
+}
+
+.detail-page-buttons .redirect_button {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #fbb03b;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.detail-page-buttons .redirect_button:hover {
+  background-color: #ffa500; /* Slightly lighter on hover */
+  transform: scale(1.05); /* Add a slight zoom effect */
+}
