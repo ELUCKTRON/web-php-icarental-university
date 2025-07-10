@@ -1,12 +1,55 @@
-# iCarRental
+# 🚗 iCarRental
 
-**Semester 3 University PHP Project**  
-**Course:** Web Programming (ELTE Informatics)  
-**Project Type:** CLI-compatible Web Application (PHP, HTML, JS)
+## 🧾 Overview
 
-## Overview
+## 🧾 Overview
 
-iCarRental is a simple web-based car rental system created during the third semester Web Programming (PHP) course. It supports core features like listing and filtering cars, booking them for date ranges, and managing them through an admin interface. The project was developed as part of an academic assignment and follows university rules for authenticity and originality.
+## 🧾 Overview
+
+iCarRental is a dynamic, interactive car rental platform  
+crafted with **vanilla PHP**, **HTML**, and **JavaScript**,  
+developed during Semester 3 of the Web Programming course at ELTE.
+
+It combines full **CRUD functionality**,  
+**user authentication**,  
+a powerful **admin dashboard**,  
+**AJAX-powered bookings**,  
+and seamless **image upload/editing** —  
+all wrapped in a responsive and intuitive interface.
+
+Whether you're booking your next ride or managing a fleet,  
+this project delivers a complete, lightweight rental experience — no frameworks required.
+
+---
+
+## 📸 Screenshots
+
+### 👨‍💼 Admin Panel
+- Admin Dashboard  
+  ![Admin Page](./assets/admin/admin-page.jpeg)
+- Add New Car  
+  ![Add New Car](./assets/admin/admin-page-add-new-car.jpeg)
+- Edit Car Info  
+  ![Edit Car](./assets/admin/admin-page-edit-new-car.jpeg)
+
+### 👤 User View
+- Landing Page (Admin View)  
+  ![Landing - Admin](./assets/user/landing-booking-admin.jpeg)
+- Landing Page (Filtered)  
+  ![Landing - Filtered](./assets/user/landing-booking-filtered.jpeg)
+- Landing Page (Normal User)  
+  ![Landing - Normal](./assets/user/landing-booking-normal.jpeg)
+- User Edit Info Page  
+  ![User Edit Info](./assets/user/user-page-edit-info.jpeg)
+
+### 🔐 Auth Pages
+- Login Page  
+  ![Login](./assets/auth/login.jpeg)
+- Signup Page  
+  ![Signup](./assets/auth/signup.jpeg)
+
+
+---
 
 ## 💡 Features
 
@@ -45,15 +88,43 @@ iCarRental is a simple web-based car rental system created during the third seme
 - Booking calendar allows only available dates to be selected.
 - Booking confirmation is done via AJAX (modal-based, no page refresh).
 
-## 📂 Structure
+---
 
-- `index.php` – Main entry point and car list.
-- `details.php` – Individual car view and booking interface.
-- `admin/` – Car management functions.
-- `auth/` – Login and registration.
-- `data/` – Persistent data (cars, users, bookings).
-- `scripts/` – AJAX handlers and modals.
+## 🧭 Project Structure
 
-## 📜 License
+```
+index.php               # Main landing and car listing page
+details.php             # Detailed car view and booking
+/admin/                 # Admin interface
+/auth/                  # Login & signup
+/data/                  # Persistent storage for cars, users, bookings
+/scripts/               # JavaScript handlers for dynamic features
+```
 
-This project is academic and non-commercial. See `LICENSE` file for details.
+---
+
+## 🚀 Run Locally
+
+You can run this project with either a local PHP server or using XAMPP/MAMP.
+
+### 🧪 Option 1: PHP Built-in Server (Quick Test)
+
+```bash
+php -S localhost:8000
+```
+
+Then go to:  
+👉 `http://localhost:8000/index.php`
+
+Make sure you're in the root directory where `index.php` exists.
+
+
+---
+
+## 📚 University Info
+
+🎓 Student: Saeed Khanloo  
+🧠 Course: Web Programming  
+🏫 Institution: ELTE (Eötvös Loránd University)  
+🗓️ Semester: 3  
+🪪 License: MIT
