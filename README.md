@@ -24,13 +24,11 @@ this project delivers a complete, lightweight rental experience — no framework
 
 ## 📸 Screenshots
 
-### 👨‍💼 Admin Panel
-- Admin Dashboard  
-  ![Admin Page](./assets/admin/admin-page.jpeg)
-- Add New Car  
-  ![Add New Car](./assets/admin/admin-page-add-new-car.jpeg)
-- Edit Car Info  
-  ![Edit Car](./assets/admin/admin-page-edit-new-car.jpeg)
+### 🔐 Auth Pages
+- Login Page  
+  ![Login](./assets/auth/login.jpeg)
+- Signup Page  
+  ![Signup](./assets/auth/signup.jpeg)
 
 ### 👤 User View
 - Landing Page (Admin View)  
@@ -42,11 +40,13 @@ this project delivers a complete, lightweight rental experience — no framework
 - User Edit Info Page  
   ![User Edit Info](./assets/user/user-page-edit-info.jpeg)
 
-### 🔐 Auth Pages
-- Login Page  
-  ![Login](./assets/auth/login.jpeg)
-- Signup Page  
-  ![Signup](./assets/auth/signup.jpeg)
+### 👨‍💼 Admin Panel
+- Admin Dashboard  
+  ![Admin Page](./assets/admin/admin-page.jpeg)
+- Add New Car  
+  ![Add New Car](./assets/admin/admin-page-add-new-car.jpeg)
+- Edit Car Info  
+  ![Edit Car](./assets/admin/admin-page-edit-new-car.jpeg)
 
 
 ---
